@@ -6,10 +6,10 @@ class RedBicycle < Bike
 
   @weight_reduction_amount = 10
 
-  def initialize(a, b, c)
-    @height = a
-    @weight = b
-    @color = c
+  def initialize(height, weight, color)
+    @height = height
+    @weight = weight
+    @color = color
   end
 
   def getColor
