@@ -4,7 +4,7 @@ end
 
 class RedBicycle < Bike
 
-  AMOUNT = 10
+  @weight_reduction_amount = 10
 
   def initialize(a, b, c)
     @height = a
@@ -21,6 +21,6 @@ class RedBicycle < Bike
   end
 
   def change_weight
-    @weight -= AMOUNT
+    @weight -= @weight_reduction_amount
   end
 end
