@@ -12,15 +12,15 @@ class RedBicycle < Bike
     @color = color
   end
 
-  def getColor
+  def get_color
     @color
   end
 
-  def retreive_height
+  def get_height
     @height
   end
 
-  def change_weight
+  def reduce_weight
     @weight -= @weight_reduction_amount
   end
 end
